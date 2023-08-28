@@ -6,6 +6,7 @@
 	* [Install using `pip`](#Install)
 	* [package](#Package)
 * [Usage](#Usage)
+  	* [data](#data)
 	* [Classifier](#Classifier) 
 ## Install
 ### Install using `pip`
@@ -26,6 +27,8 @@ conda activate
 | scikit-learn | 0.24.1 |
 | genism | 3.8.3 |
 ## Usage
+### data:
+  * data:training data and test data for peptide sequences
 ### Classifier:
   * train.py is the implemention of our model
   * predict.py is used to predict new samples
