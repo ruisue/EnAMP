@@ -7,7 +7,8 @@
 	* [package](#Package)
 * [Usage](#Usage)
   	* [data](#data)
-	* [Classifier](#Classifier) 
+	* [Classifier](#Classifier)
+	* [Example](#Example)
 ## Install
 ### Install using `pip`
 
@@ -32,3 +33,5 @@ conda activate
 ### Classifier:
   * train.py is the implemention of our model.The statistical features of the training set peptide sequence are respectively input into RF and SVM, and the two kinds of word embedding features are respectively input into the deep learning framework for training
   * predict.py is used to predict new samples.The statistical features of the test set peptide sequence are respectively input into RF and SVM, and the two kinds of word embedding features are respectively input into the deep learning framework for testing
+### Example:
+  * Example:
